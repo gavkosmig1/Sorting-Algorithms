@@ -140,6 +140,7 @@ $$
 $$
 T(n) = \sum_{i=1}^{n-1} T_i = \sum_{i=1}^{n-1} \bigg({i \over 2} + 1 - {1 \over i+1} \bigg) = \sum_{i=1}^{n-1} {i \over 2} + \sum_{i=1}^{n-1} 1 + \sum_{i=1}^{n-1} {1 \over i+1}
 $$
+
 $$
 T(n) \approx {n^2-n \over 4} + (n-1) - (\ln(n)-1) = O(n^2)
 $$
